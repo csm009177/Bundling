@@ -1,0 +1,1 @@
+(()=>{var o={85:o=>{o.exports="최성민"},4:o=>{o.exports="korea"}},r={};function e(s){var t=r[s];if(void 0!==t)return t.exports;var l=r[s]={exports:{}};return o[s](l,l.exports,e),l.exports}(()=>{console.log("Hello World!");const o=e(85),r=e(4);console.log(o),console.log(r)})()})();
