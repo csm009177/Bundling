@@ -7,13 +7,13 @@ const isProduction = process.env.NODE_ENV == 'production';
 
 
 const config = {
-    entry: './src/index.js',
+    entry: './src/index.js',                    // entry
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'dist'), // basic path 관습적으로 안 건드린다
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: 'index.html',
+    plugins: [                                 // 배열이다 추가 가능
+        new HtmlWebpackPlugin({                // return is obj
+            template: 'index.html',            
         }),
 
         // Add your plugins here
